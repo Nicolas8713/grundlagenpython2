@@ -19,3 +19,21 @@ zahlA = "123"
 zahlB="456"
 print(zahlA + zahlB)
 '''
+zahl1 = input("Geben sie eine zahl ein")
+aktion = input("Geben sie eine aktion ein(+/-/*/:)")
+zahl2 = input("Geben sie noch eine zahl ein")
+
+zahl1=int(zahl1)
+zahl2=int(zahl2)
+
+
+if (aktion == "+"):
+    ergebnis = zahl1+zahl2
+if (aktion == "-"):
+    ergebnis = zahl1-zahl2
+if (aktion == "*"):
+    ergebnis = zahl1*zahl2
+if( aktion == ":"):
+    ergebnis = zahl1/zahl2
+
+print(ergebnis)
